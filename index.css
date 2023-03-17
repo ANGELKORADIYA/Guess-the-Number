@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: black;
+    color: white;    
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#nav nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#nav nav ul li {
+    margin: 30px;
+
+}
+
+a {
+    padding: 20px;
+    color: red;
+    border-radius: 12px;
+}
+
+a:hover {
+    color: rgb(17, 0, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+#answer {
+    display: flex;
+    justify-content: center;
+    margin: 122px;
+}
+
+#answer h1 {
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid green;
+    text-align: center;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}    
+
+.input{
+    padding: 12px;
+    margin: 60px;
+    border: none;
+}
+.input:hover{
+    background-color: white;
+    color:blue;
+    border-radius: 12px;
+}
+#x{
+    position:fixed;
+    right: 12px;
+    bottom: 12px;
+    font-size: 25px;
+}
+hr{
+    margin: 10px;
+}
+.conte{
+    display: block;
+    text-align: center;
+    padding: 12px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+#desc a {
+    margin: 30px;
+    color:white
+}
+.input:active{
+    background-color:cyan
+}
+#desc a:hover {
+    background: rgb(240, 92, 92);
+}
+#instruction{display: block;
+    text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    background-color: rgb(0, 255, 0);
+  }
+  #nav nav ul ,main,form{
+    flex-direction: column;
+    margin-top:50px;
+    justify-content: center;
+}
+#nav{
+margin-top:50px}
+}
+
+#warn{
+    position: absolute;
+    left:500px;
+    top: 330px ;
+    padding: 12px;
+}

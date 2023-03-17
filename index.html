@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http- equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main>
+    <div id="desc"><a href="index.html">Guess The Number</a></div>
+    <div id="nav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+            </ul>
+        </nav>
+    </div>
+</main>
+
+<hr>
+<div class="conte">Guess the number between 1-100</div>
+    <div>
+        <form action="" id="form">  
+            <label for="reset"> 
+           <input type="reset" class="input" id="reset"></label> 
+            <label for="guess">
+                <input class="input" type="number" name="guess" id="guess" min="1" max="100" placeholder="0">
+            </label>
+            <label for="guess">
+                <input class="input" id="submit" type="submit" value="guess">
+            </label>
+        </form>
+    </div>
+
+    <div id="answer"></div>
+    <div class="hr"></div>
+    <div id="x"></div>
+    <div id="warn"></div>
+    <script src="index.js">Count</script>
+</body>
+
+</html>
